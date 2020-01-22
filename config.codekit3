@@ -9,57 +9,23 @@
 	],
 "creatorBuild": "31934",
 "files": {
-	"/dist/_skelett-query-mixins.scss": {
+	"/dist/skelett-media-queries.css": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/_skelett-query-mixins.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
-	"/dist/_skelett-query-utilities.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/_skelett-query-utilities.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
-	"/dist/_skelett-query-vars.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/src/_skelett-query-vars.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
-	"/dist/skelett-media-queries.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
+		"ft": 16,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "/src/skelett-media-queries.css",
+		"oAP": "/dist/skelett-media-queries-min.css",
 		"oF": 0,
-		"oS": 1,
-		"uL": 1
+		"oS": 3
+		},
+	"/dist/skelett-media-queries.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/skelett-media-queries.css.map",
+		"oF": 0
 		},
 	"/package.json": {
 		"ft": 524288,
@@ -88,23 +54,57 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/src/skelett-media-queries.css": {
+	"/src/_skelett-media-query-mixins.scss": {
 		"aP": 1,
 		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/src/skelett-media-queries-min.css",
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/_skelett-media-query-mixins.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 1,
+		"uL": 1
 		},
-	"/src/skelett-media-queries.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/src/_skelett-media-query-utilities.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/_skelett-media-query-utilities.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/src/_skelett-media-query-vars.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/_skelett-media-query-vars.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"/src/skelett-media-queries.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
 		"oA": 0,
-		"oAP": "/src/skelett-media-queries.css.map",
-		"oF": 0
+		"oAP": "/dist/skelett-media-queries.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
 		}
 	},
 "hooks": [
@@ -2112,7 +2112,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "src",
+		"autoOutputPathRelativePath": "dist",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 1,
