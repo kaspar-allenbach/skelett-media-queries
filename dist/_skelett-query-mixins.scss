@@ -1,0 +1,61 @@
+//media queries upwards
+@mixin xs__up {
+  @media (min-width: #{$xs-width}) {
+    @content;
+  }
+}
+
+@mixin sm__up {
+  @media (min-width: #{$sm-width}) {
+    @content;
+  }
+}
+
+@mixin md__up {
+  @media (min-width: #{$md-width}) {
+    @content;
+  }
+}
+
+@mixin lg__up {
+  @media (min-width: #{$lg-width}) {
+    @content;
+  }
+}
+
+@mixin xl__up {
+  @media (min-width: #{$xl-width}) {
+    @content;
+  }
+}
+
+//media query downwards
+@mixin xs__down {
+  @media (max-width: #{$xs-width}) {
+    @content;
+  }
+}
+
+@mixin sm__down {
+  @media (max-width: #{$sm-width}) {
+    @content;
+  }
+}
+
+@mixin md__down {
+  @media (max-width: #{$md-width}) {
+    @content;
+  }
+}
+
+@mixin lg__down {
+  @media (max-width: #{$lg-width}) {
+    @content;
+  }
+}
+
+@mixin xl__down {
+  @media (max-width: #{$xl-width}) {
+    @content;
+  }
+}
