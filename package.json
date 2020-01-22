@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple SCSS Media Query Library based on the Bootstrap sizing widths",
   "main": "test.js",
-  "style": "skelett-media-queries.scss"
+  "style": "skelett-media-queries.scss",
   "repository": {
     "type": "git",
     "url": "git+https://kaspar-allenbach@github.com/kaspar-allenbach/skelett-media-queries.git"
