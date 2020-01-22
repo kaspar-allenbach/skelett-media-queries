@@ -1,0 +1,19 @@
+$xl-width: "1200px";
+$lg-width: "992px";
+$md-width: "786px";
+$sm-width: "576px";
+$xs-width: "320px";
+
+$list: (
+  "xs__up": "min-width: #{$xs-width}",
+  "sm__up": "min-width: #{$sm-width}",
+  "md__up": "min-width: #{$md-width}",
+  "lg__up": "min-width: #{$lg-width}",
+  "xl__up": "min-width: #{$xl-width}",
+
+  "xs__down": "max-width: #{$xs-width}",
+  "sm__down": "max-width: #{$sm-width}",
+  "md__down": "max-width: #{$md-width}",
+  "lg__down": "max-width: #{$lg-width}",
+  "xl__down": "max-width: #{$xl-width}"
+);

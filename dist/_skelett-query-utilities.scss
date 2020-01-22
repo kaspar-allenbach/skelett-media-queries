@@ -1,0 +1,9 @@
+
+@each $keyParam, $valueParam in $list {
+  .hidden-#{$keyParam},
+  %hidden-#{$keyParam} {
+    @media ($valueParam) {
+      display: none !important;
+    }
+  }
+}

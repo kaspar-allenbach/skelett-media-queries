@@ -1,0 +1,31 @@
+{
+  "name": "skelett-media-queries",
+  "version": "1.0.0",
+  "description": "A simple SCSS Media Query Library based on the Bootstrap sizing widths",
+  "main": "test.js",
+  "style": "skelett-media-queries.scss"
+  "repository": {
+    "type": "git",
+    "url": "git+https://kaspar-allenbach@github.com/kaspar-allenbach/skelett-media-queries.git"
+  },
+  "keywords": [
+    "media",
+    "query",
+    "scss",
+    "sizes",
+    "css",
+    "responsive",
+    "webdesign",
+    "simple",
+    "mobile",
+    "bootstrap",
+    "simple",
+    "library"
+  ],
+  "author": "Kaspar Allenbach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaspar-allenbach/skelett-media-queries/issues"
+  },
+  "homepage": "https://github.com/kaspar-allenbach/gugus-media-queries#readme"
+}
