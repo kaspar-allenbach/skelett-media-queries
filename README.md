@@ -1,26 +1,32 @@
-# Gugus Media-Queries
-A simple Media Query Library for Sass to go. (Gugus: Swiss German for «peeck a boo»)
+# Skelett Media-Queries
+A barebones (German: Skelett) media query library without any styling.
 
-These queries are an adaption of [David Walshes Media Query Mixins](https://davidwalsh.name/write-media-queries-sass)
+Used by [skelett-flexbox-grid](https://github.com/kaspar-allenbach/skelett-flexbox-grid) and [sekelett-container](https://github.com/kaspar-allenbach/skelett-container).
 
-Import ins SCSS with: `@import "../../node_modules/gugus-media-queries/gugus-media-queries";`
-
-There are Size Variables to easily change the mixins. These Sizes are based on [Bootstrap 4](https://getbootstrap.com/docs/4.0/layout/grid/#grid-options)
+-- 
+## The Skelett
+- The Skelett repos are a bunch of standalone scss libraries without any styling so they don't interfere with your very beautiful project.
+- No padding
+- No margin
+- no colors
+- no nothing
+- ITCSS naming to prevent style injections
+--
 
 | Size           | px      | Example Selector      | Example Selector (downwards) |
 | -------------- |:-------:| ---------------------:| ----------------------------:|
-| Extra small    | ≥320px  | `@include xsUp { … }` | `@include xsDown { … }`      |
-| Small          | ≥576px  | `@include smUp { … }` | `@include smDown { … }`      |
-| Medium         | ≥768px  | `@include mdUp { … }` | `@include mdDown { … }`      |
-| Large          | ≥992px  | `@include lgUp { … }` | `@include lgDown { … }`      |
-| Extra large    | ≥1200px | `@include xlUp { … }` | `@include XlDown { … }`      |
+| Extra small    | ≥320px  | `@include xs__up { … }` | `@include xs__down { … }`      |
+| Small          | ≥576px  | `@include sm__up { … }` | `@include sm__down { … }`      |
+| Medium         | ≥768px  | `@include md__up { … }` | `@include md__down { … }`      |
+| Large          | ≥992px  | `@include lg__up { … }` | `@include lg__down { … }`      |
+| Extra large    | ≥1200px | `@include xl__up { … }` | `@include xl__down { … }`      |
 
 
 # Example of usage
 
 #### foo.scss
 ```
-@include smUp {
+@include sm__up {
   body {
     background: red;
   }
@@ -38,7 +44,7 @@ There are Size Variables to easily change the mixins. These Sizes are based on [
 # Visibility Classes
 There are visibility Extends as well:
 ```
-.hiddenLgDown { @include smDown { display: none; } }
+.hidden-sm__down { @include sm__down { display: none; } }
 ```
 This would hide an element on Lg size and below.
 
@@ -49,16 +55,16 @@ You can now add Visibility Classes as a `extend`, as a `Mixin` or as a class dir
 #### As a Extend:
 
 ```
-.yourThing { @extend %hiddenSmDown; }
+.yourThing { @extend %hidden-sm__down; }
 ```
 
 #### As a Mixin:
 ```
-.yourThing { @include hiddenSmDown; }
+.yourThing { @include hidden-sm__down; }
 ```
 
 #### Or directely in HTML:
 
 ```
-<li class="hiddenSmUp">Gugus Dada</li>
+<li class="hidden-sm__down">Gugus Dada</li>
 ```
