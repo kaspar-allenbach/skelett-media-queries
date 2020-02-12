@@ -3,7 +3,7 @@ A barebones (German: Skelett) media query library without any styling.
 
 Used by [skelett-flexbox-grid](https://github.com/kaspar-allenbach/skelett-flexbox-grid) and [sekelett-container](https://github.com/kaspar-allenbach/skelett-container).
 
--- 
+
 ## The Skelett
 - The Skelett repos are a bunch of standalone scss libraries without any styling so they don't interfere with your very beautiful project.
 - No padding
@@ -11,7 +11,7 @@ Used by [skelett-flexbox-grid](https://github.com/kaspar-allenbach/skelett-flexb
 - no colors
 - no nothing
 - ITCSS naming to prevent style injections
---
+
 
 | Size           | px      | Example Selector      | Example Selector (downwards) |
 | -------------- |:-------:| ---------------------:| ----------------------------:|
